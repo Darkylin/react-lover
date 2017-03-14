@@ -9,14 +9,16 @@ import {bindActionCreators} from 'redux';
 class Config extends Component {
   render() {
     const {
-      config:{workbench, projects},
+      config:{workbench, projects, newProjectInput},
       changeWorkbench,
-      scanWorkbench
+      scanWorkbench,
+      changeNewProject,
+      addNewProject
     } = this.props;
     return (
       <section>
         <Workbench {...{workbench, changeWorkbench, scanWorkbench}}/>
-        <ProjectList {...{projects, scanWorkbench}}/>
+        <ProjectList {...{projects, scanWorkbench, newProjectInput, changeNewProject, addNewProject}}/>
       </section>
     );
   }

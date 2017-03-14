@@ -35,7 +35,7 @@ export default class Workbench extends Component {
           <TextField
             hintText={'请使用绝对路径'}
             onChange={::this.changeWorkbenchHandler}
-            value={workbench}
+            defaultValue={workbench}
             fullWidth
           />
         </CardText>
