@@ -1,0 +1,16 @@
+{
+  "name": "react-lover",
+  "productName": "react-lover",
+  "version": "0.0.1",
+  "description": "react-lover",
+  "main": "./main.js",
+  "author": {
+    "name": "darkylin",
+    "email": "darkylin1989@gmail.com",
+    "url": "http://yuhuan.wang"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-config": "^0.2.1"
+  }
+}
